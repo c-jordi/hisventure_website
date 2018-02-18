@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+
+}
+
+media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+section {
+
+  overflow: hidden;
+  padding: 50px;
+  height: 100vh;
+  width: 100%;
+  background: black;
+
+}
+
+section.home{
+
+    text-align: center;
+    display: table;
+    background-color: orange;
+    color: white;
+
+}
+
+section.home.center {
+
+    vertical-align: middle;
+    text-align: center;
+    display: table;
+    background: none;
+}
+#projects{
+
+}
